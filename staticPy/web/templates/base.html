@@ -21,22 +21,8 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        
-        <h2>Hi! This list is Yonsei SCSC Homepage Developers</h2>
-
-        <h3>2014</h3>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/dongheoncho/en">조동헌</a> - davinnovation AT gmail.com</li>
-            <li>모신영</li>
-            <li>김찬석</li>
-            <li>김나연</li>
-            <li>백경오</li>
-            <li>정술람</li>
-            <li>고재량</li>
-            <li>신승연</li>
-            <li>정현석</li>
-        </ul>
-
+        {% block body %}
+        {% endblock %}
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -54,7 +40,7 @@
             ga('create','UA-54345597-2','auto');ga('send','pageview');
         </script>
 
-        
-        
+        {% block scripts %}
+        {% endblock %}
     </body>
 </html>
