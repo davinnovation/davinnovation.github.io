@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2df69dd1-aa59-4c87-9d8d-77757c37faaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/templates/base.html" afterPath="$PROJECT_DIR$/web/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.build/index.html" afterPath="$PROJECT_DIR$/web/.build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/.build/yscsc_dev.html" afterPath="$PROJECT_DIR$/web/.build/yscsc_dev.html" />
     </list>
     <ignored path="staticPy.iws" />
     <ignored path=".idea/workspace.xml" />
