@@ -1,9 +1,15 @@
 {% extends "base.html" %}
 
-{% block body %}
-<h1>Davi Innovation</h1>
+{% block title%}
+Davi Innovation
+{% endblock %}
 
-<a href="{% url '/yscsc_dev.html' %}">yscsc hw</a>
-<br>
-<a href="{% url '/bit.html' %}">Better Interaction Tool</a>
+{% block body %}
+<div class="container">
+    <h1>Davi Innovation</h1>
+
+    <a href="{% url '/yscsc_dev.html' %}">yscsc hw</a>
+    <br>
+    <a href="{% url '/bit.html' %}">Better Interaction Tool</a>
+</div>
 {% endblock %}
