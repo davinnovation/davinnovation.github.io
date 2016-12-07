@@ -1,0 +1,29 @@
+.Davi_Innovation {
+  font-family: 'Bungee', cursive;
+  text-align: center;
+}
+
+.text_list {
+  font-family: 'Ubuntu';
+}
+
+.site-wrapper {
+}
+
+.site-wrapper-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  border: 10px;
+  border-style: solid;
+  border-color: #808080;
+}
